@@ -620,7 +620,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 481px) and (max-width: 568px) {
+@media screen and (min-device-width : 481px) and (max-width: 568px) and (orientation: portrait) {
 
 	.main-nav {
 	width: 100%;
@@ -819,7 +819,7 @@ html[xmlns] .clearfix {
 }
 
 
-@media only screen and (min-device-width : 461px) and (max-width: 480px) {
+@media only screen and (min-device-width : 461px) and (max-width: 480px) and (orientation: portrait) {
 
 	.main-content {
 	width: 480px;
@@ -944,7 +944,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-width: 460px) {
+@media only screen and (min-device-width : 320px) and (max-width: 460px) and (orientation: portrait) {
 
 	.main-content {
 	width: 460px;
