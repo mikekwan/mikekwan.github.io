@@ -518,7 +518,7 @@ html[xmlns] .clearfix {
 }
 
 */
-@media screen and (min-device-width : 569px) and (max-width: 900px) and (orientation: portrait) {
+@media screen and (min-device-width : 569px) and (max-width: 900px) {
 
 	.main-content {
 	width: 767px;
@@ -549,7 +549,7 @@ html[xmlns] .clearfix {
 	border-left: 4px solid white;
 	width: 186.75px;
 	}
-											/* 569 - 767 */
+											/* 569 - 900 */
 	.main-nav li a {
 	width: 186.75px;
 	}
@@ -606,7 +606,7 @@ html[xmlns] .clearfix {
 	.order-box {
 	margin-right: 65%;
 	}
-										/* 569 - 767 */
+										/* 569 - 900 */
 
 	.column-quarter {
 	font-size: 12px;
