@@ -518,7 +518,7 @@ html[xmlns] .clearfix {
 }
 
 */
-@media screen and (min-device-width : 569px) and (max-width: 900px) {
+@media screen and (min-device-width : 569px) and (max-width: 900px) and (orientation: portrait) {
 
 	.main-content {
 	width: 767px;
@@ -716,12 +716,12 @@ html[xmlns] .clearfix {
 	font-size: 22px;
 	width: 568px;
 	}
-											/* 481 - 568 */
+
 	.badger-button {
 	width: 75%;
 	height: 75%;
 	}
-												/* 461 - 480 */
+												/* 481 - 568 */
 	
 	.column-third {
 	width: 28%;
@@ -817,6 +817,139 @@ html[xmlns] .clearfix {
 
 
 }
+
+/* samsung devices 480 x 800 */
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {
+	.main-content {
+	width: 480px;
+	}
+
+	#mobileNav {
+	width: 480px;
+	}
+
+	.intro-text {
+	padding-top: 10px;
+	margin-left: 20px;
+	margin-right: 40px;
+	font-size: 18px;
+	}
+
+	#intro-button {
+	margin-top: 5%;
+	width: 90%;
+	}
+
+	#choose-title {
+	width: 100%;
+	}
+
+	.badger-button {
+	width: 75%;
+	height: 75%;
+	}
+												/* 480 x 800 */
+	#button1 {
+	margin-left: 57px;
+	}
+
+	#button2 {
+	margin-left: 47px;
+	}
+
+	#button3 {
+	margin-left: 37px;
+	}
+
+	#single-badger-clear {
+	width: 60%;
+	height: 60%;
+	}
+
+	.badger-display .column-half {
+	width: 200px;
+	height: 180px;
+	}
+
+	.badger-new {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80%;
+	height: 80%;
+	}
+												/* 480 x 800 */
+	#single-badger-clear {
+	padding-top: 30px;
+	}
+	
+	#badger-text-clear {
+	font-size: 17px;
+	width: 100%;
+	padding-top: 50px;
+	}
+
+	.badger-result {
+	font-size: 17px;
+	}
+	
+	.badger-result-text {
+	width: 95%;
+	}
+
+	.order-box {
+	margin-right: 100%;
+	}
+
+	#order-button1, #order-button2, #order-button3 {
+	width: 160px;
+	}
+
+	#services-title {
+	margin-right: 30px;
+	line-height: 0;
+	}
+													/* 480 x 800 */
+	.column-quarter {
+	/* display: table-cell; */
+	width: 42%;
+	margin-left: 3%;
+	margin-top: 50px;
+	height: 285px;
+	}
+
+	.services2 .column-quarter {
+	width: 42%;
+	margin-left: 3%;
+	height: 285px;
+	margin-top: 20px;
+	}
+
+	.services .column-quarter{
+	margin-top: 20px;
+	}
+
+	.columnn-fifth {
+	margin-top: 30px;
+	width: 19%;
+	}
+
+	#button-more-box {
+	margin-left: 25%;
+	}
+
+	footer {
+	font-size: 11px;
+	}
+
+
+} 
+
+/* to add...
+@media screen and (device-width: 800px) and (device-height: 480px) and (orientation: landscape) {
+
+ 
+}
+*/
 
 
 @media screen and (min-device-width : 461px) and (max-width: 480px) and (orientation: portrait) {
