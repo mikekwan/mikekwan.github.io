@@ -518,7 +518,7 @@ html[xmlns] .clearfix {
 }
 
 */
-@media screen and (min-device-width : 569px) and (max-width: 900px) and (orientation: landscape) {
+@media screen and (min-device-width : 569px) and (max-width: 900px) and (orientation: portrait) {
 
 	.main-content {
 	width: 767px;
