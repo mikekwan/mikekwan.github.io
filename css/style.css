@@ -358,7 +358,7 @@ img#quadruple-badger {
 
 .stats-text, .stats-text2 {
 	text-align: center;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 /* ----- SERVICES----- */
@@ -881,7 +881,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+@media screen and (min-device-width : 320px) and (max-width: 480px) {
 
 	.main-content {
 	width: 100%;
@@ -979,10 +979,6 @@ html[xmlns] .clearfix {
 													/* 320 - 460 */
 	.stats {
 	height: 8em;
-	}
-
-	.stats-text {
-	font-size: 15px;
 	}
 
 	#services-title {
