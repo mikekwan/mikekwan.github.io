@@ -848,7 +848,7 @@ html[xmlns] .clearfix {
 	}
 
 	.special-img {
-	height: 80%;
+	height: 75%;
 	float: left;
 	margin-right: 2em;
 	}
@@ -881,7 +881,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+@media screen and (min-device-width : 320px) and (max-width: 480px) and (-webkit-device-pixel-ratio: 1.5), (-webkit-device-pixel-ratio: 2.0) {
 
 	.main-content {
 	width: 100%;
