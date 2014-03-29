@@ -881,7 +881,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media screen and (min-device-width : 320px), (orientation: portrait) {
+@media only screen and (min-device-width : 320px) and (max-width: 480px) {
 
 	.main-content {
 	width: 100%;
