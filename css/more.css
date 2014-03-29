@@ -1,0 +1,142 @@
+/* target Android S2 */
+@media screen and (device-width: 320px) and (device-height: 534px) and (-webkit-device-pixel-ratio: 1.5) {
+
+	.main-content {
+	width: 100%;
+	}
+
+	#mobileNav {
+	width: 100%;
+	}
+
+	.feature-slider {
+	width: 100%;
+	}
+
+	div.column-half {
+	width: 80%;
+	}
+
+	#intro-button {
+	width: 95%;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	}			
+												/* 320 - 460 */
+	#choose-title {
+	width: 100%;
+	}
+
+	.badger-button {
+	width: 80%;
+	height: 80%;
+	}
+
+	#button1 {
+	margin-left: 40%;
+	}
+
+	#button2 {
+	margin-left: 40%;
+	}
+
+	#button3 {
+	margin-left: 40%;
+	}
+
+	.badger-display .column-half {
+	width: 43%;
+	height: 16em;
+	}
+												/* 320 - 460 */
+	.badger-new {
+	margin-top: 2em;
+	margin-left: 2em;
+	width: 70%;
+	height: 70%;
+	}
+
+	#single-badger-clear {
+	margin-top: 5em;
+	width: 60%;
+	height: 60%;
+	}
+	
+	#badger-text-clear {
+	font-size: 16px;
+	width: 99%;
+	padding-top: 5em;
+	}
+
+	.badger-result {
+	font-size: 16px;
+	}
+	
+	.badger-result-text {
+	font-size: 15px;
+	width: 95%;
+	}
+
+	.order-box {
+	margin-right: 100%;
+	}
+
+	.order-status {
+	font-size: 12px;
+	}
+
+	#order-button1, #order-button2, #order-button3 {
+	width: 6em;
+	}
+	/* column-quarter needs to meet this min. width */
+	.columnn-quarter2 {
+	font-size: 11px;
+	margin-top: 2em;
+	width: 18%;
+	}
+													/* 320 - 460 */
+	.stats {
+	height: 8em;
+	}
+
+	#services-title {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 30px;
+	}
+
+	.column-quarter {
+	/* display: table-cell; */
+	width: 95%;
+	margin-top: 0px;
+	height: 180px;
+	margin-left: 1.5%;
+	}
+
+	.services2 .column-quarter {
+	width: 95%;
+	height: 180px;
+	margin-left: 1.5%;
+	}
+
+	#button-more-box {
+	margin-left: 24%;
+	}
+
+	#quotes-third {
+	width: 98%;
+	margin-right: 12%;
+	}
+
+	#quotes-third p {
+	padding: 2px;
+	margin-left: 4%;
+	width: 90%;
+	}
+
+	footer div.column-half {
+	width: 100%;
+	}
+
+}
+}
