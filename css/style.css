@@ -881,7 +881,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media screen and (min-device-width : 320px) and (max-width: 480px) {
+@media all and (device-aspect-ratio: 3/5) {
 
 	.main-content {
 	width: 100%;
@@ -972,7 +972,7 @@ html[xmlns] .clearfix {
 	}
 	/* column-quarter needs to meet this min. width */
 	.columnn-quarter2 {
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: 2em;
 	width: 18%;
 	}
