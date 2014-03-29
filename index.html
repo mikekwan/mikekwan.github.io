@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Hire a Honey Badger</title>
-		<meta charset="utf-8">
+		<meta charset="utf-8" name="viewport" content="width=400, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -16,44 +16,44 @@
 
 			<nav class="main-nav">
 				<ul>
-					<li class="bg-orange" id="hamburger"><a href="#"><i class="fa fa-bars fa-lg"></i></a> </li>
-					<li class="mobile-title"><a href="#">Hire a Honey Badger</li>
+					<li class="bg-orange" id="hamburger"><a href="#"><i class="fa fa-bars fa-lg"></i></a></li> 
+					<li class="mobile-title">Hire a Honey Badger</li>
 					<li class="bg-blue"><a href="index.html">Home</a></li>
 					<li class="bg-red"><a href="about.html">About</a></li>
-					<li class="bg-green"><a href="#services">Services</a></li>
+					<li class="bg-green"><a href="#services-title">Services</a></li>
 					
 				</ul>
 			</nav>
 			<nav id="mobileNav">
            		 <ul>
              		 <a href="about.html"><li class="active bg-red">About</li></a>
-             		 <a href="#services"><li class="active bg-green">Services</li></a>
+             		 <a href="#services-title"><li class="active bg-green">Services</li></a>
             	</ul>
           </nav>
 		</header>
+
 <div class="main-content"><!--main content -->
 			
 			<div class="feature-slider">
 
 				<div class="column-half intro-pic">
-						<img class="slide-image" src="img/honeybadger1_243.jpg">
+				<img class="slide-image" src="img/honeybadger1_243.jpg">
 				</div><!--intro-pic -->
 
 				<div class="column-half intro-text">
-						<p>The honey badger is pretty badass! We're currently in beta launch (invite-only). </p>
+				<p>The honey badger is pretty badass! We're in beta launch (invite-only). </p>
 
-						<button id="intro-button" type="button">
-							<div class="status">Beta launch on hold due to badger uprising.</div>
-							<div class="announcement">Please stay tuned for updates</div>
-						</button> 
+					<button id="intro-button" type="button">
+					<div class="status">Beta launch on hold due to badger uprising.</div>
+					<div class="announcement">Please stay tuned for updates</div>
+					</button> 
 						
 				</div><!--intro-text -->
 
 			</div>	<!--feature slider-->
 
-		<section class="badger-mode">
-
-			<div class="badger-buttons-wrap">
+		<div class="badger-mode">
+			
 			<h2 id="choose-title">Select Badger!</h2>
 
 			<div class="column-third">
@@ -72,6 +72,7 @@
 					<img class="badger-button gray-border" id="button2" src="img/button2.jpg">
 				</a>
 				</div>
+			<div class="blank div"></div>
 			</div>
 
 
@@ -83,18 +84,13 @@
 				</a>
 				</div>
 			</div>
-		</div><!--badger-buttons-wrap-->
+		
 
-		</section><!--badger-mode-->
+		</div><!--badger-mode-->
 
-
-
-		<section class="badger-display">
-
-			<div class="h2 title"><h2 id="badger-title">&nbsp;</h2></div>
-
-			<div class="column-half">
-
+		<div class="badger-display">		
+				<div class="column-half">
+	
 				<div class="badger-pop">
 					<img align="left" src="img/displaybadger1.jpg" id="single-badger-clear" ></div>
 				
@@ -107,13 +103,13 @@
 				<div class="badger-pop2" id="quadruple-badger">
 					<img align="left"  src="img/displaybadger4.jpg" id="quadruple-badger" class="badger-new"></div>
 
-			</div><!--column-half-->
+				</div><!--column-half-->
 
-			<div class="column-half">
-
+				<div class="column-half">
+	
 
 					<p id="badger-text-clear">
-					 Select a badger above  &nbsp; <i class="fa fa-hand-o-up fa-lg"></i> 
+					 Select a badger &nbsp; <i class="fa fa-hand-o-up fa-lg"></i> 
 					</p>
 
 					<h2 id="badger-result1" class="badger-result">You chose Solo!</h2>
@@ -152,68 +148,59 @@
 					</div>
 					</p>
 
-			</div><!---column-half-->
+				</div><!---column-half-->
 
-		</section><!--badger-display-->
+		</div><!--badger-display-->
 
 
 	
-		<section class="stats">
+		<div class="stats">
 
-			<div class="columnn-fifth">
+			<div class="columnn-quarter2">
 				<div class="counter" id="maulings-counter"></div>
-				<p class="stats-text2">Maulings</p>
+				<p class="stats-text">Maulings</p>
 			</div>
 
-			<div class="columnn-fifth">
-				<div class="counter" id="goods-counter"></div>
-				<p class="stats-text2">Goods Taken</p>
-			</div>
-
-			<div class="columnn-fifth">
+			<div class="columnn-quarter2">
 				<div class="counter" id="honey-counter"></div>
 				<p class="stats-text">Honey Eaten (lbs)</p>
 			</div>
 
-			<div class="columnn-fifth">
+			<div class="columnn-quarter2">
 				<div class="counter" id="snakes-counter"></div>
 				<p class="stats-text">Snakes in Trees</p>
 			</div>
 
-			<div class="columnn-fifth">
+			<div class="columnn-quarter2">
 				<div class="counter" id="babies-counter"></div>
 				<p class="stats-text">Babies Saved</p>
 			</div>
 				
-
-		</section><!--Stats-->
-
-
-		<section class="services" id="services"> 
-
-				<h2 id="services-title">
-				Services				
-				</h2>
-
+			
+		</div>
+				<!-- remove? 
+		<section class="services" id="services"> -->
+				<h2 id="services-title"> Services </h2>
+				
 				<div class="column-quarter" id="column-quarter"><!--Cobras-->
 					<img title="Cobras" src="img/cobra257x253.jpg" style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Cobras</h2>
+					<h3 class="services-h2">Cobras</h3>
 					<p id="cobras">Cobras are the badgers' staple. Whether they're slithering around or in a tree, they're as good as dinner.</p>
 				</div>
 				<div class="column-quarter id="column-quarter""><!--Thieves-->
 					<img title="Thieves" src="img/thief257x252.jpg"
 					style="max-width: 60%" class="special-img"> 
-					<h2 class="services-h2">Thieves</h2>
+					<h3 class="services-h2">Thieves</h3>
 					<p>Thieves stand no chance. One whiff at it's stink attack, and its game over for any thieves trying to get past.</p>
 				</div>
 				<div class="column-quarter" id="column-quarter"><!--Bullies-->
 					<img title="Bullies" src="img/bully257x252.jpg"style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Bullies</h2>
+					<h3 class="services-h2">Bullies</h3>
 					<p>Bullies making your life miserable? Confront them with a badger and they'll never come close again!</p>
 				</div>
 				<div class="column-quarter" id="column-quarter"><!--Rats-->
 					<img title="Rats" src="img/rat257x252.jpg" style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Rats</h2>
+					<h3 class="services-h2">Rats</h3>
 					<p>Rat problem? Don't worry about this small rodent, the honey badger will enjoy making this a quick meal.</p>
 				</div>
 
@@ -225,29 +212,29 @@
 
 			</div><!--more-->
 	
-	</section><!--services-->		
+	<!--</section>services-->		
 
 			<section class="services2" id="services2">
 
 				<div class="column-quarter"><!--Zombies-->
 					<img title="Zombies" src="img/zombie257x252.jpg" style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Zombies</h2>
+					<h3 class="services-h2">Zombies</h3>
 					<p>Fight a zombie apocalypse with a badger. Not even the undead are safe from the badger's appetite!</p>
 				</div>
 				<div class="column-quarter"><!--Lions-->
 					<img title="Lions" src="img/lion257x252.jpg"
 					style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Lions</h2>
+					<h3 class="services-h2">Lions</h3>
 					<p>Lion on the loose? Throw a pack of badgers to show 'em who's boss. See the true king of the jungle!</p>
 				</div>
 				<div class="column-quarter"><!--Bears-->
 					<img title="Bears" src="img/bear257x252.jpg" style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Bear</h2>
+					<h3 class="services-h2">Bear</h3>
 					<p>Bear on your campsite? Hire a badger to scare 'em away. If there's honey in the area, watch out!</p>
 				</div>
 				<div class="column-quarter"><!--Babies-->
 					<img title="Babies" src="img/baby257x252.jpg" style="max-width: 60%" class="special-img">
-					<h2 class="services-h2">Babies</h2>
+					<h3 class="services-h2">Babies</h3>
 					<p>Honey badgers just love babies. Enlist the badger to guard your little one from all threats when away.</p>
 				</div>
 
@@ -256,17 +243,17 @@
 			<section class="quotes">
 
 				<div class="all-quotes">
-					<div class="column-third">
+					<div class="column-third" id="quotes-third">
 					<p>"MY hero! - Giraffe</p>
-					<p>"AaaaaaGGHH!" - Fox</p>
+					<p>"AagHH!!" - Fox</p>
 					</div>
 
-					<div class="column-third">
+					<div class="column-third" id="quotes-third">
 					<p >"Pretty badass" - Donkey</p>
 					<p>"Can't compete" - Chuck Norris</p>
 					</div>
 
-					<div class="column-third">
+					<div class="column-third" id="quotes-third">
 					<p>"Dude's kinda wacko" - Lion</p>
 					<p>"Watch your back..." - Rhino</p>
 					</div>
@@ -276,7 +263,7 @@
 
 </div class="main-content">
 
-			<footer>
+			<footer class="clearfix">
 
 				<div class="column-half column-terms bg-orange">
 				<h3 align="left">Design by Mike Kwan</h3>
