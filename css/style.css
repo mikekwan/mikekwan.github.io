@@ -15,7 +15,7 @@ a {
 
 .main-content {
 	max-width: 1000px;
-
+	
 }
 
 .about-section {
@@ -267,7 +267,7 @@ header {
 	text-align: center;
 	font-size: 33px;
 
-
+	
 }
 
 img#single-badger {
@@ -331,18 +331,12 @@ img#quadruple-badger {
 	width: 19%;
 	float: left;
 	text-align: center;
-	font-size: 14px;
+	font-size: 32px;
 	padding-top: 12px;
 	margin-top: 20px;
 	margin-bottom: 40px;
 	border-top: 1px dotted #2980b9;
 	border-bottom: 1px dotted #2980b9;
-}
-
-
-
-.columnn-fifth .counter {
-	font-size: 32px;
 }
 
 .stats-text, .stats-text2 {
@@ -722,7 +716,7 @@ html[xmlns] .clearfix {
 	height: 75%;
 	}
 												/* 461 - 480 */
-
+	
 	.column-third {
 	width: 28%;
 	}
@@ -746,7 +740,7 @@ html[xmlns] .clearfix {
 	.badger-pop, .badger-pop2 {
 	margin-left: 0;
 	}
-
+	
 	#badger-text-clear {
 	font-size: 19px;
 	width: 80%;
@@ -882,7 +876,7 @@ html[xmlns] .clearfix {
 	#single-badger-clear {
 	padding-top: 30px;
 	}
-
+	
 	#badger-text-clear {
 	font-size: 17px;
 	width: 100%;
@@ -892,7 +886,7 @@ html[xmlns] .clearfix {
 	.badger-result {
 	font-size: 17px;
 	}
-
+	
 	.badger-result-text {
 	width: 95%;
 	}
@@ -947,11 +941,11 @@ html[xmlns] .clearfix {
 @media only screen and (min-device-width : 320px) and (max-width: 460px) and (orientation: portrait) {
 
 	.main-content {
-	width: 460px;
+	width: 100%;
 	}
 
 	#mobileNav {
-	width: 460px;
+	width: 100%;
 	}
 
 	#mobileNav a li {
@@ -959,39 +953,41 @@ html[xmlns] .clearfix {
 	}
 
 	.feature-slider {
-	width: 460px;
+	width: 100%;
 	}
 
 	.intro-text {
-	padding-top: 10px;
-	margin-left: 20px;
-	margin-right: 30px;
-	width: 320px;
+	padding-top: 1em;
+	margin-left: 1em;
+	margin-right: 2em;
+	width: 80%;
 	}
 
 	#intro-button {
-	width: 90%;
+	width: 95%;
+	margin-left: 1em;
+	margin-bottom: 1em;
 	}			
 												/* 320 - 460 */
 	#choose-title {
-	width: 85%;
+	width: 100%;
 	}
 
 	.badger-button {
-	width: 70%;
-	height: 70%;
+	width: 80%;
+	height: 80%;
 	}
 
 	#button1 {
-	margin-left: 35px;
+	margin-left: 40%;
 	}
 
 	#button2 {
-	margin-left: 25px;
+	margin-left: 40%;
 	}
 
 	#button3 {
-	margin-left: 15px;
+	margin-left: 40%;
 	}
 
 	#single-badger-clear {
@@ -1000,27 +996,27 @@ html[xmlns] .clearfix {
 	}
 
 	.badger-display .column-half {
-	width: 200px;
-	height: 180px;
+	width: 44%;
+	height: 16em;
 	}
 												/* 320 - 460 */
 	.badger-new {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 2em;
+	margin-left: 2em;
 	width: 70%;
 	height: 70%;
 	}
-
+	
 	#badger-text-clear {
 	font-size: 16px;
-	width: 85%;
-	padding-top: 50px;
+	width: 99%;
+	padding-top: 3em;
 	}
 
 	.badger-result {
 	font-size: 16px;
 	}
-
+	
 	.badger-result-text {
 	font-size: 15px;
 	width: 90%;
@@ -1031,36 +1027,39 @@ html[xmlns] .clearfix {
 	}
 
 	#order-button1, #order-button2, #order-button3 {
-	width: 160px;
-	}
-
-	#services-title {
-	margin-right: 15.5%;
-	font-size: 28px;
-	}
-
-	.column-quarter {
-	/* display: table-cell; */
-	width: 38%;
-	margin-top: 0px;
-	height: 285px;
-	margin-left: 2.5%;
-	}
-
-	.services2 .column-quarter {
-	width: 38%;
-	height: 285px;
-	margin-left: 2.5%;
+	width: 6em;
 	}
 
 	.columnn-fifth {
-	margin-top: 25px;
+	font-size: 11px;
+	margin-top: 2em;
 	width: 21%;
 	}
 													/* 320 - 460 */
 	.columnn-fifth:first-child {
 	display: none;
 	position: absolute;
+	}
+
+	#services-title {
+	margin-top: 1em;
+	margin-left: 6.5%;
+	font-size: 28px;
+	}
+
+
+	.column-quarter {
+	/* display: table-cell; */
+	width: 46%;
+	margin-top: 0px;
+	height: 285px;
+	margin-left: 2.5%;
+	}
+
+	.services2 .column-quarter {
+	width: 46%;
+	height: 285px;
+	margin-left: 2.5%;
 	}
 
 	#button-more-box {
