@@ -1,5 +1,5 @@
 body {
-	font-family: 'Bariol', serif, Helvetica;
+	font-family: 'Bariol', 'Myriad Pro', 'Futura', Helvetica;
 	font-size: 14px;
 	background-color: white;
 }
@@ -614,24 +614,24 @@ html[xmlns] .clearfix {
 
 }
 
-@media screen and (min-device-width : 481px) and (max-width: 568px) and (orientation: portrait) {
+@media screen and (min-device-width : 481px) and (max-width: 568px) {
 
 	.main-nav {
 	width: 100%;
 	}
 
 	.main-content {
-	width: 568px;
+	width: 100%;
 	}
 
 	.about-section {
 	margin: 40px 0 0 40px;
-	max-width: 558px;
+	max-width: 95%;
 	}
 
 	#mobileNav {
 	display: none;
-	width: 568px;
+	width: 100%;
 	position: absolute;
 	}
 
@@ -643,25 +643,22 @@ html[xmlns] .clearfix {
 	#mobileNav ul li{
 	display: block;
 	float: right;
-	height: 50px;
 	width: 100%;
 	}
 
 	#mobileNav ul a li{
-	height: 50px;
-	line-height: 2.4;
-	font-size: 18px;
+	height: 3em;
+	line-height: 3;
+	font-size: 19px;
 	}
 										/* 481 - 568 */
 	h1 {
 	display: none;
 	}
 
-	.main-nav ul {
-	left: 0px
-	}
-
 	.main-nav ul{
+	left: 0px;
+	height: 3em;
 	background-color: black;
 	width: 100%;
 	}
@@ -674,19 +671,21 @@ html[xmlns] .clearfix {
 	.main-nav ul li:first-of-type{
 	display: block;
 	float: right;
-	width: 160px;
+	width: 7em;
+	height: 3em;
+	padding-right: 4.5em;
 	}
 
 	.main-nav .mobile-title {
 	display: block;
 	float: left;
-	padding-left: 20px;
+	padding-left: 1em;
 	}
 										/* 481 - 568 */
 	.feature-slider {
-	width: 568px;
-	height: 160px;
-	padding-left: 20px;
+	width: 100%;
+	height: 13em;
+	padding-left: 1.5em;
 	border-bottom: none;
 	}
 
@@ -694,47 +693,48 @@ html[xmlns] .clearfix {
 	display: none;
 	}
 
-	.intro-text {
-	padding-top: 20px;
-	margin-left: 60px;
-	width: 400px;
+	.column-half .intro-text p {
+	width: 90%;
 	}
 
 	#intro-button {
-	width: 360px;
+	width: 90%;
+	margin-left: 35%;
 
 	}
 
 	#choose-title {
 	text-align: center;
 	font-size: 22px;
-	width: 568px;
+	width: 100%;
 	}
 											/* 481 - 568 */
 	.badger-button {
 	width: 75%;
 	height: 75%;
 	}
-												/* 461 - 480 */
 	
 	.column-third {
 	width: 28%;
 	}
 
 	#button1 {
+		/*
 	margin-left: 67px;
+	*/
+	margin-left: 5em;
 	}
 
 	#button2 {
-	margin-left: 57px;
+	margin-left: 4em;
 	}
 
 	#button3 {
-	margin-left: 47px;
+	margin-left: 3em;
 	}
 
 	.badger-display .column-half {
-	width: 264px;
+	width: 50%;
 	}
 
 	.badger-pop, .badger-pop2 {
@@ -743,7 +743,7 @@ html[xmlns] .clearfix {
 	
 	#badger-text-clear {
 	font-size: 19px;
-	width: 80%;
+	width: 90%;
 	}
 
 	.badger-result {
@@ -784,7 +784,7 @@ html[xmlns] .clearfix {
 	.services2 .column-quarter {
 	width: 43%;
 	margin-left: 1.5%;
-	margin-top: 20px;
+	margin-top: 2em;
 	height: 285px;
 	}
 
@@ -800,8 +800,8 @@ html[xmlns] .clearfix {
 
 	#button-more-box {
 	width: 400px;
-	margin-top: 20px;
-	margin-left: 30%;
+	margin-top: 2em;
+	margin-left: 25%;
 	float: left;
 	}
 
@@ -816,17 +816,14 @@ html[xmlns] .clearfix {
 @media only screen and (min-device-width : 461px) and (max-width: 480px) and (orientation: portrait) {
 
 	.main-content {
-	width: 480px;
+	width: 100%;
 	}
 
 	#mobileNav {
-	width: 480px;
+	width: 100%;
 	}
 
 	.intro-text {
-	padding-top: 10px;
-	margin-left: 20px;
-	margin-right: 40px;
 	font-size: 18px;
 	}
 
@@ -844,17 +841,6 @@ html[xmlns] .clearfix {
 	height: 75%;
 	}
 												/* 461 - 480 */
-	#button1 {
-	margin-left: 57px;
-	}
-
-	#button2 {
-	margin-left: 47px;
-	}
-
-	#button3 {
-	margin-left: 37px;
-	}
 
 	#single-badger-clear {
 	width: 60%;
@@ -862,25 +848,25 @@ html[xmlns] .clearfix {
 	}
 
 	.badger-display .column-half {
-	width: 200px;
-	height: 180px;
+	width: 48%;
+	height: 12em;
 	}
 
 	.badger-new {
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 1.5em;
+	margin-left: 1.5em;
 	width: 80%;
 	height: 80%;
 	}
 												/* 461 - 480 */
 	#single-badger-clear {
-	padding-top: 30px;
+	padding-top: 2.5em;
 	}
 	
 	#badger-text-clear {
 	font-size: 17px;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 3em;
 	}
 
 	.badger-result {
@@ -896,7 +882,7 @@ html[xmlns] .clearfix {
 	}
 
 	#order-button1, #order-button2, #order-button3 {
-	width: 160px;
+	width: 9em;
 	}
 
 	#services-title {
@@ -948,10 +934,6 @@ html[xmlns] .clearfix {
 	width: 100%;
 	}
 
-	#mobileNav a li {
-	margin-right: 6%;
-	}
-
 	.feature-slider {
 	width: 100%;
 	}
@@ -965,6 +947,7 @@ html[xmlns] .clearfix {
 
 	#intro-button {
 	width: 95%;
+	margin-top: 1.5em;
 	margin-left: 1em;
 	margin-bottom: 1em;
 	}			
@@ -1019,7 +1002,7 @@ html[xmlns] .clearfix {
 	
 	.badger-result-text {
 	font-size: 15px;
-	width: 90%;
+	width: 95%;
 	}
 
 	.order-box {
@@ -1063,7 +1046,7 @@ html[xmlns] .clearfix {
 	}
 
 	#button-more-box {
-	margin-left: 20%;
+	margin-left: 22%;
 	}
 
 
