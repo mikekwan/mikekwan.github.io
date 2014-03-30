@@ -214,7 +214,7 @@ header {
 #intro-button {
 	height: 3em;
 	width: 13em;
-	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	background: orange;
 	color: white;
@@ -236,7 +236,7 @@ header {
 	height: 40px;
 	width: 200px;
 	font-size: 22px;
-	font-family: 'Bariol', 'Alegreya Sans' 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 	background: #e74c3c;
 	color: white; 
 	margin-left: 31%;
@@ -493,7 +493,7 @@ div#badger-text-clear-mob {
 	height: 45px;
 	width: 10em;
 	font-size: 22px;
-	font-family: 'Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans','Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 	background: orange;
 	color: white;
 	border: none; 
@@ -1019,7 +1019,7 @@ html[xmlns] .clearfix {
 	div#badger-text-clear-mob {
 	display: block;
 	opacity: 0.6;
-	padding: 6.5em 0 0 3em;
+	padding: 6em 0 0 3em;
 	}
 
 	div#leftbadger {
@@ -1094,7 +1094,7 @@ html[xmlns] .clearfix {
 	}
 
 	button#button-more {
-	width: 100%;
+	width: 90%;
 	}
 
 	#quotes-third {
