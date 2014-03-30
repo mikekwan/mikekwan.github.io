@@ -1,11 +1,11 @@
 body {
-	font-family: 'Bariol', 'Myriad Pro', 'Futura', Helvetica;
+	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	background-color: white;
 }
 
 h1 {
-	font-weight: 1000;
+	font-weight: 300;
 	width: 1000px;
 }
 
@@ -19,7 +19,7 @@ a {
 }
 
 .about-section {
-	height: 610px;
+	height: 630px;
 	max-width: 600px;
 	font-size: 18px;
 	margin: 40px 0px 0 190px;
@@ -131,7 +131,7 @@ header {
 	width: 100%;
 	height: 40px;
 	font-size: 18px;
-	font-family: 'Bariol', 'Sintony', sans-serif;
+	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding-top: 0.6em;
 	text-align: center;
 	text-decoration: none;
@@ -213,7 +213,7 @@ header {
 #intro-button {
 	height: 2em;
 	width: 20em;
-	font-family: 'Bariol', 'Myriad Pro', 'Futura', Helvetica;
+	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	background: orange;
 	color: white;
@@ -235,7 +235,7 @@ header {
 	height: 40px;
 	width: 200px;
 	font-size: 22px;
-	font-family: 'Bariol', serif;
+	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: orange;
 	color: white; 
 	margin-left: 31%;
@@ -297,8 +297,7 @@ header {
 #choose-title {
 	text-align: center;
 	font-size: 33px;
-
-	
+	font-weight: 300;
 }
 
 img#single-badger {
@@ -485,7 +484,7 @@ img#quadruple-badger {
 	height: 45px;
 	width: 10em;
 	font-size: 22px;
-	font-family: 'Bariol', serif;
+	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: orange;
 	color: white;
 	border: none; 
@@ -677,6 +676,11 @@ html[xmlns] .clearfix {
 
 	#button-more-box {
 	margin-left: 35%;
+	}
+
+	iframe {
+	width: 85%;
+	height: 35%;
 	}
 
 
