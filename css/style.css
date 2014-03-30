@@ -1089,7 +1089,11 @@ html[xmlns] .clearfix {
 	}
 
 	#button-more-box {
-	margin-left: 24%;
+	margin-left: 2%;
+	}
+
+	button#button-more {
+	width: 90%;
 	}
 
 	#quotes-third {
