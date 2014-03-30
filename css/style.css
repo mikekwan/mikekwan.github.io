@@ -46,6 +46,7 @@ a {
 .bg-darkblue {background-color: #34495e;}
 .bg-orange {background-color: #e67e22;}
 .bg-darkgreen {background-color: #27ae60;}
+.bg-darkred {background-color: #c0392b;}
 
 .bg-clouds {background-color: #ecf0f1;}
 .bg-silver {background-color: #bdc3c7;}
@@ -986,15 +987,15 @@ html[xmlns] .clearfix {
 	}
 
 	#button1 {
-	margin-left: 40%;
+	margin-left: 35%;
 	}
 
 	#button2 {
-	margin-left: 40%;
+	margin-left: 35%;
 	}
 
 	#button3 {
-	margin-left: 40%;
+	margin-left: 35%;
 	}
 
 	.badger-display .column-half {
