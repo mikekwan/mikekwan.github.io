@@ -524,7 +524,7 @@ footer .column-half {
 	line-height: 0.5;
 	height: 110px;
 	box-sizing: border-box;
-	display: inline-block;
+	display: inline;
 }
 
 footer a {
