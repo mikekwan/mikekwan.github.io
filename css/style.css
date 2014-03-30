@@ -503,7 +503,7 @@ div#badger-text-clear-mob {
 #button-more:hover {background-color: #e67e22;}
 
 .fa-sort {
-	padding-left: 1.5em;
+	padding-right: 4.5em;
 }
 
 
@@ -1093,10 +1093,6 @@ html[xmlns] .clearfix {
 	margin-left: 0%;
 	}
 
-	button#button-more {
-	width: 90%;
-	}
-
 	#quotes-third {
 	width: 98%;
 	margin-right: 12%;
@@ -1106,6 +1102,11 @@ html[xmlns] .clearfix {
 	padding: 2px;
 	margin-left: 4%;
 	width: 90%;
+	}
+
+	button#button-more {
+	width: 120%;
+	
 	}
 
 	footer div.column-half {
