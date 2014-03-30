@@ -337,12 +337,17 @@ img#quadruple-badger {
 	margin-left: 25%;
 }
 
-#badger-text-clear {
-	opacity: 0.5;
+div#badger-text-clear {
+	opacity: 0.6;
 	display: block;
 	text-align: left;
-	padding-top: 50px;
+	padding-left: 1em;
+	padding-top: 4em;
 	font-size: 20px;
+}
+
+div#badger-text-clear-mob {
+	display: none;
 }
 
 .badger-result {
@@ -1007,11 +1012,14 @@ html[xmlns] .clearfix {
 	height: 80%;
 	}
 	
-	#badger-text-clear {
-	font-size: 17px;
-	width: 90%;
-	padding-top: 5em;
-	padding-left: 1em;
+	div#badger-text-clear {
+	display: none;
+	}
+
+	div#badger-text-clear-mob {
+	display: block;
+	opacity: 0.6;
+	padding: 6.5em 0 0 3em;
 	}
 
 	div#leftbadger {
