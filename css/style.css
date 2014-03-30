@@ -150,7 +150,7 @@ header {
 .mobile-logo img {
 	height: 95%;
 	margin-left: 1%;
-	border-radius: 10px;
+	border-radius: 40px;
 }
 
 #mobileNav, .active {
@@ -209,7 +209,7 @@ header {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 #intro-button:hover {background-color: #e67e22;}
@@ -724,7 +724,6 @@ html[xmlns] .clearfix {
 
 	.main-nav .mobile-title {
 	display: block;
-	float: left;
 	padding-left: 1em;
 
 	}
@@ -911,6 +910,7 @@ html[xmlns] .clearfix {
 
 	.feature-slider {
 	width: 100%;
+	height: 6em;
 	}
 
 	div.column-half {
@@ -923,6 +923,14 @@ html[xmlns] .clearfix {
 	margin-bottom: 1em;
 	}			
 												/* 320 - 460 */
+	.intro-text p{
+	display: none;
+	}
+
+	#intro-button {
+	display: block;
+	}
+
 	#choose-title {
 	width: 100%;
 	}
@@ -946,7 +954,7 @@ html[xmlns] .clearfix {
 
 	.badger-display .column-half {
 	width: 43%;
-	height: 18em;
+	height: 16em;
 	}
 												/* 320 - 460 */
 	.badger-new {
@@ -970,22 +978,21 @@ html[xmlns] .clearfix {
 
 	div#leftbadger {
 	width: 38%;
-	border: 1px solid purple;
 	}
 
 	div#selectbadger {
-	width: 40%;
-	border: 1px solid black;
+	width: 41%;
 	}
 
 	.badger-result {
-	font-size: 13px;
-	line-height: 0;
+	font-size: 14px;
+	line-height: 1;
 	}
 	
 	.badger-result-text {
-	font-size: 12px;
-	width: 90%;
+	font-size: 14px;
+	width: 95%;
+	line-height: 1.2;
 	}
 
 	.order-box {
