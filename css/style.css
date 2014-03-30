@@ -424,7 +424,7 @@ img#quadruple-badger {
 	margin-left: 1.4%;
 }
 
-.services .column-quarter  p,
+.column-quarter  p,
 .services2 .column-quarter p {
 	color: black;
 	text-align: left;
@@ -1067,7 +1067,7 @@ html[xmlns] .clearfix {
 	line-height: 0;
 	}
 
-	.column-quarter {
+	.column-quarter, .services2 .column-quarter {
 	/* display: table-cell; */
 	width: 95%;
 	margin-top: 0px;
@@ -1075,10 +1075,8 @@ html[xmlns] .clearfix {
 	margin-left: 1.5%;
 	}
 
-	.services2 .column-quarter {
-	width: 95%;
-	height: 180px;
-	margin-left: 1.5%;
+	.column-quarter p, .services2 .column-quarter p {
+	font-size: 14px;
 	}
 
 	#button-more-box {
