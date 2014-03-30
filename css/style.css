@@ -1,5 +1,5 @@
 body {
-	font-family: 'Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	background-color: white;
 }
@@ -7,6 +7,7 @@ body {
 h1 {
 	font-weight: 300;
 	width: 1000px;
+	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -297,6 +298,7 @@ header {
 	text-align: center;
 	font-size: 33px;
 	font-weight: 300;
+	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 }
 
 img#single-badger {
@@ -467,6 +469,7 @@ img#quadruple-badger {
 	margin-right: 2.5%;
 	padding-top: 1em;
 	border-top: 1px dotted #2980b9;
+	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 }
 
 .hi-class {
