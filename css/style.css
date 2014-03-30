@@ -46,7 +46,6 @@ a {
 .bg-darkblue {background-color: #34495e;}
 .bg-orange {background-color: #e67e22;}
 .bg-darkgreen {background-color: #27ae60;}
-.bg-darkred {background-color: #c0392b;}
 
 .bg-clouds {background-color: #ecf0f1;}
 .bg-silver {background-color: #bdc3c7;}
@@ -875,7 +874,7 @@ html[xmlns] .clearfix {
 
 	.column-quarter {
 	/* display: table-cell; */
-	width: 95%;
+	width: 94%;
 	height: 180px;
 	margin-left: 2.5%;
 	}
@@ -1079,7 +1078,7 @@ html[xmlns] .clearfix {
 
 	.column-quarter, .services2 .column-quarter {
 	/* display: table-cell; */
-	width: 95%;
+	width: 93%;
 	margin-top: 0px;
 	height: 180px;
 	margin-left: 1.5%;
