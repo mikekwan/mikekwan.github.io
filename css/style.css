@@ -75,6 +75,16 @@ a {
 	opacity: 1;
 }
 
+::selection {
+	background-color: red;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: red;
+	color: white;
+}
+
 /* ----- HEADER ----- */
 
 header {
@@ -188,12 +198,13 @@ header {
 
 .intro-pic {
 	float: left;
+	padding-left: 5em;
 }
 
 
 .intro-text {
 	padding-top: 50px;
-	margin-left: 50px;
+	margin-left: 2.5em;
 	max-width: 358px;
 	float: left;
 	font-size: 20px;
@@ -201,15 +212,14 @@ header {
 
 #intro-button {
 	height: 55px;
-	width: 220px;
+	width: 20em;
 	font-family: 'Bariol', serif;
-	font-size: 16px;
+	font-size: 15px;
 	background: orange;
 	color: white;
-	margin-top: 2px;
-	margin-left: 15%;
+	margin-top: 0.5em;
 	border: none;
-	border-radius: 10px;
+	border-radius: 15px;
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     opacity: 1;
@@ -598,6 +608,10 @@ html[xmlns] .clearfix {
 	border: 1px solid black;
 	}
 
+	.intro-pic {
+	padding-left: 0;
+	}
+
 	.intro-text {
 	width: 45%;
 	padding-top: 10px;
@@ -646,6 +660,10 @@ html[xmlns] .clearfix {
 	.column-quarter p, .services2 .column-quarter p {
 	width: 70%;
 	margin-left: 15%;
+	}
+
+	.column-quarter h3 {
+	line-height: 0;
 	}
 
 
@@ -894,7 +912,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-width: 480px) {
+@media only screen and (min-device-width : 350px) and (max-width: 480px) {
 
 	.main-content {
 	width: 100%;
@@ -1078,3 +1096,10 @@ html[xmlns] .clearfix {
 
 
 }
+
+@media only screen and (min-device-width : 0px) and (max-width: 350px) {
+
+.main-content {
+	width: 350px;
+	}
+}	
