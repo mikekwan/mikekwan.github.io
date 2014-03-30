@@ -985,16 +985,8 @@ html[xmlns] .clearfix {
 	height: 80%;
 	}
 
-	#button1 {
-	margin-left: 35%;
-	}
-
-	#button2 {
-	margin-left: 35%;
-	}
-
-	#button3 {
-	margin-left: 35%;
+	#button1, #button2, #button3 {
+	margin-left: 30%;
 	}
 
 	.badger-display .column-half {
@@ -1011,14 +1003,15 @@ html[xmlns] .clearfix {
 
 	#single-badger-clear {
 	margin-top: 5em;
-	width: 60%;
-	height: 60%;
+	width: 80%;
+	height: 80%;
 	}
 	
 	#badger-text-clear {
-	font-size: 14px;
+	font-size: 17px;
 	width: 90%;
 	padding-top: 5em;
+	padding-left: 1em;
 	}
 
 	div#leftbadger {
@@ -1089,11 +1082,11 @@ html[xmlns] .clearfix {
 	}
 
 	#button-more-box {
-	margin-left: 2%;
+	margin-left: 0%;
 	}
 
 	button#button-more {
-	width: 90%;
+	width: 100%;
 	}
 
 	#quotes-third {
