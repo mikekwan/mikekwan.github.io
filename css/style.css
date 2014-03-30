@@ -929,7 +929,7 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 330px) and (max-width: 480px) {
+@media only screen and (min-device-width : 315px) and (max-width: 480px) {
 
 	.main-content {
 	width: 100%;
@@ -1110,9 +1110,9 @@ html[xmlns] .clearfix {
 
 }
 
-@media only screen and (min-device-width : 0px) and (max-width: 330px) {
+@media only screen and (min-device-width : 0px) and (max-width: 315px) {
 
 .main-content {
-	width: 330px;
+	width: 315px;
 	}
 }	
