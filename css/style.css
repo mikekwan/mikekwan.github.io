@@ -148,9 +148,11 @@ header {
 }
 
 .mobile-logo img {
-	height: 95%;
-	margin-left: 1%;
+	height: 80%;
+	margin-left: 2%;
+	margin-top: 2%;
 	border-radius: 40px;
+	border: 1px solid orange;
 }
 
 #mobileNav, .active {
@@ -971,7 +973,7 @@ html[xmlns] .clearfix {
 	}
 	
 	#badger-text-clear {
-	font-size: 16px;
+	font-size: 14px;
 	width: 90%;
 	padding-top: 5em;
 	}
