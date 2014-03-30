@@ -45,6 +45,7 @@ a {
 .bg-blue {background-color: #3498db;}
 .bg-darkblue {background-color: #34495e;}
 .bg-orange {background-color: #e67e22;}
+.bg-darkgreen {background-color: #27ae60;}
 
 .bg-clouds {background-color: #ecf0f1;}
 .bg-silver {background-color: #bdc3c7;}
@@ -58,7 +59,7 @@ a {
 .main-nav .bg-orange:hover {background-color: #d35400;}
 
 #mobileNav .bg-red:hover {background-color: #c0392b;}
-#mobileNav .bg-green:hover {background-color: #27ae60;}
+#mobileNav .bg-green:hover {background-color: #27ae60;} 
 #mobileNav .bg-blue:hover {background-color: #2980b9;}
 
 .highlighted {
@@ -235,8 +236,8 @@ header {
 	height: 40px;
 	width: 200px;
 	font-size: 22px;
-	font-family: 'Bariol', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
-	background: orange;
+	font-family: 'Bariol', 'Alegreya Sans' 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+	background: #e74c3c;
 	color: white; 
 	margin-left: 31%;
 	border: none;
@@ -270,15 +271,15 @@ header {
 }
 
 #button1 {
-	margin-left: 75%;
+	margin-left: 80%;
 }
 
 #button2 {
-	margin-left: 42%;
+	margin-left: 47%;
 }
 
 #button3 {
-	margin-left: 9%;
+	margin-left: 14%;
 
 }
 
@@ -398,7 +399,7 @@ img#quadruple-badger {
 	float: left;
 	text-align: center;
 	box-sizing: border-box;
-	border: 1px dotted #bdc3c7;
+	border: 1px dotted #34495e ;
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -468,7 +469,7 @@ img#quadruple-badger {
 	font-weight: 300;
 	margin-right: 2.5%;
 	padding-top: 1em;
-	border-top: 1px dotted #2980b9;
+	border-top: 1px dotted #2c3e50;
 	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -491,9 +492,6 @@ img#quadruple-badger {
 	background: orange;
 	color: white;
 	border: none; 
-	-webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
     margin-bottom: 1em;
 }
 
@@ -510,9 +508,9 @@ img#quadruple-badger {
 	padding: 20px;
 	text-align: center;
 	font-size: 16px;
-	border: 1px dotted black;
+	border: 1px dotted #34495e;
 	border-radius: 10px;
-	margin-left: 20%;
+	margin-left: 26%;
 }
 
 /* ----- FOOTER ----- */
@@ -537,7 +535,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #8e44ad;
+	color: #c0392b;
 }
 
 
@@ -672,6 +670,13 @@ html[xmlns] .clearfix {
 	line-height: 0;
 	}
 
+	.column-third {
+	width: 30%;
+	}
+
+	.column-third:first-child {
+	margin-left: 0%;
+	}
 
 	.special-img {
 	height: 60%;
@@ -794,7 +799,8 @@ html[xmlns] .clearfix {
 	}
 	
 	.column-third {
-	width: 28%;
+	width: 30%;
+	
 	}
 
 	#quotes-third {
