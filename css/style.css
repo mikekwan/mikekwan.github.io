@@ -132,7 +132,7 @@ header {
 	height: 40px;
 	font-size: 18px;
 	font-family: 'Bariol', 'Sintony', sans-serif;
-	padding-top: 12px;
+	padding-top: 0.6em;
 	text-align: center;
 	text-decoration: none;
 	position: absolute;
@@ -211,7 +211,7 @@ header {
 }
 
 #intro-button {
-	height: 55px;
+	height: 2em;
 	width: 20em;
 	font-family: 'Bariol', serif;
 	font-size: 15px;
@@ -524,6 +524,7 @@ footer .column-half {
 	line-height: 0.5;
 	height: 110px;
 	box-sizing: border-box;
+	display: inline-block;
 }
 
 footer a {
@@ -951,6 +952,7 @@ html[xmlns] .clearfix {
 	width: 95%;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+	height: 3em;
 	}			
 												/* 320 - 460 */
 	.intro-text p{
