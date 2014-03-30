@@ -210,8 +210,8 @@ header {
 }
 
 #intro-button {
-	height: 3em;
-	width: 13em;
+	height: 2em;
+	width: 20em;
 	font-family: 'Bariol', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	background: orange;
@@ -462,8 +462,8 @@ img#quadruple-badger {
 
 #services-title {
 	text-align: center;
-	font-size: 30px;
-	font-weight: 300;
+	font-size: 32px;
+	font-weight: 0;
 	margin-right: 2.5%;
 	padding-top: 1em;
 	border-top: 1px dotted #2980b9;
