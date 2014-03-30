@@ -137,10 +137,10 @@ header {
 }
 
 .mobile-title {
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
 	display: none;
-	line-height: 2.3;
+	line-height: 2.8;
 }
 
 .mobile-logo {
@@ -148,9 +148,9 @@ header {
 }
 
 .mobile-logo img {
-	height: 80%;
+	height: 60%;
 	margin-left: 2%;
-	margin-top: 2%;
+	margin-top: 3%;
 	border-radius: 40px;
 	border: 1px solid orange;
 }
@@ -676,6 +676,7 @@ html[xmlns] .clearfix {
 
 	li#hamburger {
 	width: 7em;
+	height: 4.2em;
 	}
 
 	#mobileNav {
@@ -707,7 +708,7 @@ html[xmlns] .clearfix {
 
 	.main-nav ul{
 	left: 0px;
-	height: 3em;
+	height: 4.2em;
 	background-color: black;
 	width: 100%;
 	}
@@ -903,11 +904,19 @@ html[xmlns] .clearfix {
 	}
 
 	.main-nav .mobile-title {
-	display: none;
+	font-size: 16px;
+	line-height: 1;
+	display: block;
+	width: 20%;
+	margin-top: 1%;
+	}
+
+	.main-nav ul {
+	height: 4.2em;
 	}
 
 	.main-nav .mobile-logo {
-	display: block;
+	display: none;
 	}
 
 	.feature-slider {
@@ -1020,7 +1029,7 @@ html[xmlns] .clearfix {
 	}
 
 	.stats-text {
-	font-size: 15px;
+	font-size: 12px;
 	}
 
 	#services-title {
