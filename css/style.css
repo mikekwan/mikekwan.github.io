@@ -213,7 +213,7 @@ header {
 #intro-button {
 	height: 2em;
 	width: 20em;
-	font-family: 'Bariol', serif;
+	font-family: 'Bariol', 'Myriad Pro', 'Futura', Helvetica;
 	font-size: 15px;
 	background: orange;
 	color: white;
@@ -483,7 +483,7 @@ img#quadruple-badger {
 
 #button-more {
 	height: 45px;
-	width: 200px;
+	width: 10em;
 	font-size: 22px;
 	font-family: 'Bariol', serif;
 	background: orange;
@@ -497,7 +497,9 @@ img#quadruple-badger {
 
 #button-more:hover {background-color: #e67e22;}
 
-
+.fa-sort {
+	padding-left: 1.5em;
+}
 
 
 /* ----- QUOTES ----- */
@@ -513,16 +515,17 @@ img#quadruple-badger {
 
 /* ----- FOOTER ----- */
 footer {
-	max-width: 100%;
+	max-width: 1000px;
 	color: white;
+	
 }
 
 footer .column-half {
 	float: left;
 	width: 50%;
+	height: 110px;
 	padding: 20px;
 	line-height: 0.5;
-	height: 110px;
 	box-sizing: border-box;
 	display: inline;
 }
@@ -949,18 +952,15 @@ html[xmlns] .clearfix {
 	}
 
 	#intro-button {
-	width: 95%;
+	width: 80%;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
-	height: 3em;
+	margin-left: 1.5em;
+	height: 3.6em;
 	}			
 												/* 320 - 460 */
 	.intro-text p{
 	display: none;
-	}
-
-	#intro-button {
-	display: block;
 	}
 
 	#choose-title {
