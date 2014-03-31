@@ -989,7 +989,6 @@ footer a:hover {
 	width: 40%;
 	height: 40%;
 	margin-top: 0;
-	padding-left: 1%;
 	}
 
 	.badger-new {
@@ -1001,7 +1000,7 @@ footer a:hover {
 	
 	div#badger-text-clear {
 	display: block;
-	margin-left: 8.5em;
+	margin-left: 5.5em;
 	margin-top: -9em;
 	position: absolute;
 	}
