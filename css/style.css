@@ -911,11 +911,11 @@ footer a:hover {
 	}
 
 	.main-nav .mobile-title {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1;
 	display: block;
-	width: 25%;
-	margin-top: 1%;
+	width: 30%;
+	margin-top: 3%;
 	}
 
 	.main-nav .mobile-logo {
@@ -930,12 +930,18 @@ footer a:hover {
 	width: 80%;
 	}
 
-	#intro-button {
+	.button-wrap {
 	width: 80%;
+	margin-left: 0em;
+	height: 3em;
+	}
+
+	#intro-button {
+	width: 12em;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
-	margin-left: 1.5em;
 	height: 3.6em;
+	float: right;
 	}			
 												/* 320 - 460 */
 	.intro-text p{
@@ -1013,7 +1019,8 @@ footer a:hover {
 	.columnn-quarter2 {
 	font-size: 11px;
 	margin-top: 2em;
-	width: 17%;
+	/*width: 17%;*/
+	width: 22%;
 	}
 													/* 320 - 460 */
 	.stats {
