@@ -517,7 +517,7 @@ footer a:hover {
 	color: #c0392b;
 }
 
-@media only screen and (min-device-width : 569px) and (max-width: 900px) {
+@media only screen and (min-width : 569px) and (max-width: 900px) {
 
 	@-ms-viewport {
 	width: device-width;
@@ -662,7 +662,7 @@ footer a:hover {
 
 }
 
-@media screen and (min-device-width : 481px) and (max-width: 568px) {
+@media screen and (min-width : 481px) and (max-width: 568px) {
 
 	@-ms-viewport {
 	width: device-width;
@@ -909,7 +909,7 @@ footer a:hover {
 
 }
 
-@media only screen and (min-device-width : 315px) and (max-device-width: 480px) {
+@media only screen and (min-width : 315px) and (max-width: 480px) {
 
 	@-ms-viewport {
 	width: device-width;
@@ -1103,7 +1103,7 @@ footer a:hover {
 
 }
 
-@media only screen and (min-device-width : 0px) and (max-device-width: 315px) {
+@media only screen and (min-width : 0px) and (max-width: 315px) {
 
 	@-ms-viewport {
 	width: device-width;
