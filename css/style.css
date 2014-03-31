@@ -989,31 +989,37 @@ footer a:hover {
 	width: 40%;
 	height: 40%;
 	margin-top: 0;
+	padding-left: 0;
+	}
+
+	.badger-display {
+	width: 90%;
 	}
 
 	.badger-new {
 	margin-top: 0em;
-	margin-left: 22%;
+	margin-left: 27%;
 	width: 45%;
 	height: 45%;
+	margin-bottom: 0;
 	}
 	
 	div#badger-text-clear {
 	display: block;
-	margin-left: 8.5em;
+	margin-left: 6.5em;
 	margin-top: -9em;
 	position: absolute;
 	}
 
 	.badger-result {
-	margin-left: 5%;
+	margin-left: 8%;
 	font-size: 21px;
-	line-height: 1;
+	line-height: 1.2;
 	}
 	
 	.badger-result-text {
 	font-size: 16px;
-	padding: 0 5% 0 3%;
+	padding: 0 5% 0 13%;
 	width: 90%;
 	line-height: 1.4;
 	}
