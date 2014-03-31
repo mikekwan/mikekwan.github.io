@@ -205,9 +205,6 @@ header {
 	color: white;
 	margin-top: 0.5em;
 	border: none;
-	border-radius: 15px;
-	-webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     opacity: 1;
 }
 
@@ -234,7 +231,6 @@ header {
 
 #button3 {
 	margin-left: 14%;
-
 }
 
 /* container */
@@ -361,7 +357,7 @@ div#badger-text-clear-mob {
 	text-align: center;
 	font-size: 18px;
 	padding-top: 1em;
-	padding-left: 2em;
+	padding-left: 1em;
 	margin-top: 0.5em;
 	margin-bottom: 0em;
 }
@@ -452,7 +448,6 @@ div#badger-text-clear-mob {
 	font-weight: 300;
 	margin-right: 2.5%;
 	padding-top: 1em;
-	border-top: 1px dotted #2c3e50;
 	font-family: 'Alegreya', 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 
@@ -470,7 +465,7 @@ div#badger-text-clear-mob {
 	height: 45px;
 	width: 10em;
 	font-size: 22px;
-	font-family: 'Alegreya', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
 	background: orange;
 	color: white;
 	border: none; 
@@ -1061,7 +1056,7 @@ footer a:hover {
 	}
 
 	button#button-more {
-	width: 120%;
+	width: 100%;
 	}
 
 	.fa-sort {
