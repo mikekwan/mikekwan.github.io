@@ -961,10 +961,6 @@ footer a:hover {
 	display: none;
 	}
 
-	div.badger-mode {
-	border: 1px solid black;
-	}
-
 	.badger-display {
 	padding-bottom: 0;
 	}
@@ -986,7 +982,9 @@ footer a:hover {
 	width: 95%;
 	}
 												/* 320 - 460 */
-	
+	#leftbadger {
+	height: 70%;
+	}
 	img#single-badger-clear {
 	width: 50%;
 	height: 50%;
