@@ -292,7 +292,7 @@ div#badger-text-clear {
 	font-size: 20px;
 }
 
-div#badger-text-clear-mob {
+#badger-text-clear-mob {
 	display: none;
 }
 
@@ -802,6 +802,10 @@ footer a:hover {
 	height: 12em;
 	}
 
+	.badger-display {
+	padding-bottom: 2em;
+	}
+
 	.badger-display .column-half {
 	width: 43.5%;
 	}
@@ -984,13 +988,7 @@ footer a:hover {
 	}
 	
 	div#badger-text-clear {
-	display: none;
-	}
-
-	div#badger-text-clear-mob {
 	display: block;
-	opacity: 0.4;
-	padding: 6.5em 0 0 5em;
 	}
 
 	div#leftbadger {
@@ -1002,12 +1000,12 @@ footer a:hover {
 	}
 
 	.badger-result {
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 1;
 	}
 	
 	.badger-result-text {
-	font-size: 14px;
+	font-size: 16px;
 	width: 95%;
 	line-height: 1.2;
 	}
