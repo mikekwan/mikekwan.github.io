@@ -174,9 +174,8 @@ header {
 
 /*------ INTRO ------ */
 
-
 .feature-slider {
-	height: 250px;
+	overflow: hidden;
 	padding-left: 100px;
 	border-bottom: 1px dotted black;
 	box-sizing: border-box;
@@ -215,6 +214,12 @@ header {
 
 /* ----- BADGER BUTTONS ----- */
 
+/* container */
+.badger-mode {
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+
 .column-third {
 	width: 30%;
 	float: left;
@@ -233,12 +238,6 @@ header {
 	margin-left: 14%;
 }
 
-/* container */
-.badger-mode {
-	height: 20em;
-}
-
-
 .gray-border {
 	border: 1px solid #bdc3c7;
 }
@@ -250,6 +249,10 @@ header {
 	font-size: 33px;
 	font-weight: 300;
 	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+}
+
+.badger-display {
+	overflow: hidden;
 }
 
 img#single-badger {
@@ -268,10 +271,6 @@ img#double-badger {
 
 img#quadruple-badger {
 	display: none;
-}
-
-.badger-display {
-	height: 200px;
 }
 
 .badger-display .column-half {
@@ -347,19 +346,18 @@ div#badger-text-clear-mob {
 /* ----- STATS ----- */
 
 .stats {
-	height: 8em;
+	overflow: hidden;
 	margin-top: 2em;
 }
 
 .columnn-quarter2 {
-	width: 19.5%;
+	width: 21%;
 	float: left;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 1em;
 	padding-left: 1em;
-	margin-top: 0.5em;
-	margin-bottom: 0em;
+	margin: 1em 0.3% 0 0.6%;
 }
 
 .stats-text, .stats-text2 {
@@ -370,19 +368,22 @@ div#badger-text-clear-mob {
 /* ----- SERVICES----- */
 /* .services { display: table;} */
 
+.services {
+	overflow: hidden;
+}
 .column-quarter {
 	/* display: table-cell; */
+	height: 283px;
 	width: 23%;
-	height: 282px;
+	text-align: center;
 	margin: 2em 0.3% 0 0.6%;
 	padding: 1.5em 1em 0.5em 1.5em;
 	box-sizing: border-box;
-	float: left;
-	text-align: center;
 	border: 1px dotted #34495e;
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    float: left;
 }
 
 /* tooltip? 
@@ -446,7 +447,7 @@ div#badger-text-clear-mob {
 	text-align: center;
 	font-size: 30px;
 	font-weight: 300;
-	margin-right: 2.5%;
+	margin-right: 4%;
 	padding-top: 1em;
 	font-family: 'Alegreya', 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
@@ -458,7 +459,7 @@ div#badger-text-clear-mob {
 #button-more-box {
 	width: 100%;
 	float: left;
-	margin: 40px 0 0 38%;
+	margin: 40px 0 0 36%;
 }
 
 #button-more {
@@ -470,7 +471,7 @@ div#badger-text-clear-mob {
 	color: white;
 	border: none; 
 	padding-left: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 #button-more:hover {background-color: #e67e22;}
@@ -481,10 +482,10 @@ div#badger-text-clear-mob {
 .column-third p{
 	padding: 20px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	border: 1px dotted #34495e;
 	border-radius: 10px;
-	margin-left: 26%;
+	margin-left: 20%;
 }
 
 /* ----- FOOTER ----- */
@@ -621,7 +622,7 @@ footer a:hover {
 	}
 
 	.column-quarter, .services2 .column-quarter {
-	width: 46%;
+	width: 47%;
 	height: 300px;
 	}
 
@@ -759,7 +760,10 @@ footer a:hover {
 
 	#intro-button {
 	width: 90%;
+	}
 
+	.badger-mode {
+	padding-bottom: 4em;
 	}
 
 	#choose-title {
@@ -838,7 +842,7 @@ footer a:hover {
 	}
 
 	#services-title {
-	margin-top: 1em;
+	margin-top: 0.5em;
 	text-align: center;
 	font-size: 30px;
 	margin-left: 10%;
@@ -846,9 +850,10 @@ footer a:hover {
 
 	.column-quarter, .services2 .column-quarter {
 	/* display: table-cell; */
-	width: 94%;
+	width: 95%;
 	height: 180px;
 	margin-left: 2.5%;
+	margin-bottom: 0.5em;
 	}
 
 	.column-quarter p, .services2 .column-quarter p {
@@ -880,8 +885,7 @@ footer a:hover {
 
 	#button-more-box {
 	width: 400px;
-	margin-top: 3em;
-	margin-left: 31%;
+	margin: 3em 0 1em 31%;
 	float: left;
 	}
 
@@ -911,7 +915,7 @@ footer a:hover {
 	}
 
 	.main-nav .mobile-title {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1;
 	display: block;
 	width: 30%;
@@ -933,13 +937,13 @@ footer a:hover {
 	.button-wrap {
 	width: 80%;
 	margin-left: 0em;
-	height: 3em;
+	overflow: hidden;
 	}
 
 	#intro-button {
 	width: 12em;
 	margin-top: 0.5em;
-	margin-bottom: 1em;
+	
 	height: 3.6em;
 	float: right;
 	}			
@@ -985,8 +989,8 @@ footer a:hover {
 
 	div#badger-text-clear-mob {
 	display: block;
-	opacity: 0.6;
-	padding: 6em 0 0 3em;
+	opacity: 0.4;
+	padding: 6.5em 0 0 5em;
 	}
 
 	div#leftbadger {
@@ -1020,15 +1024,19 @@ footer a:hover {
 	font-size: 11px;
 	margin-top: 2em;
 	/*width: 17%;*/
-	width: 22%;
+	width: 45%;
 	}
 													/* 320 - 460 */
 	.stats {
-	height: 8em;
+	overflow: hidden;
+	}
+
+	.stats .counter {
+	font-size: 25px;
 	}
 
 	.stats-text {
-	font-size: 12px;
+	font-size: 16px;
 	}
 
 	.services-h2 {
@@ -1048,7 +1056,7 @@ footer a:hover {
 	}
 
 	#button-more-box {
-	margin-left: 0%;
+	
 	}
 
 	#quotes-third {
@@ -1062,13 +1070,14 @@ footer a:hover {
 	width: 90%;
 	}
 
-	button#button-more {
-	width: 100%;
+	#button-more-box {
+	width: 400px;
+	margin: 3em 0 1em 25%;
+	float: left;
 	}
 
-	.fa-sort {
-	padding-right: 5.5em;
-}
+	button#button-more {
+	}
 
 }
 
