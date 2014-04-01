@@ -815,7 +815,7 @@ footer a:hover {
 	}
 
 	.badger-display {
-	height: 27em;
+	height: 28em;
 	}	
 
 	#order-button1, #order-button2, #order-button3 {
@@ -833,18 +833,17 @@ footer a:hover {
 	}
 
 	img#single-badger-clear {
-	margin-left: 1.5em;	
 	width: 75%;
 	}
 
 	.badger-pop {
-	width: 60%;
-	margin-left: 3.3em;
+	max-width: 60%;
+	margin-left: 3.8em;
 	margin-bottom: 1.2em;
 	}
 
 	img.badger-new {
-	margin-left: 3em;
+	margin-left: 0.8em;
 	}
 
 	.badger-pop2 {
@@ -861,16 +860,15 @@ footer a:hover {
 
 	.badger-result {
 	font-size: 18px;
-	padding-left: 2em;
+	padding-left: 0em;
 	margin-top: 7em;
 	width: 90%;
 	}
 												/* 360 - 568 */
 	.badger-result-text {
 	font-size: 16px;
-	padding-top: 0em;
-	padding-left: 3em;
-	padding-right: 2em;
+	margin-bottom: 1em;
+	padding: 0em 2em 1em 2.5em;
 	}
 
 	div.order-box {
