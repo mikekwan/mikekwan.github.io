@@ -20,6 +20,7 @@ a:focus, button:focus {
 
 .main-content {
 	max-width: 1000px;
+	width: 99%;
 }
 
 .about-section {
@@ -525,7 +526,7 @@ footer a:hover {
 @media only screen and (min-width : 569px) and (max-width: 900px) {
 
 	.main-content {
-	width: 80%;
+	width: 90%;
 	min-width: 767px;
 	}
 
@@ -669,8 +670,8 @@ footer a:hover {
 @media screen and (min-width : 360px) and (max-width: 568px) {
 
 	.main-content {
-	width: 90%;
-	min-width: 320px;
+	width: 99%;
+	min-width: 482px;
 	}
 
 	.intro-text {
@@ -953,8 +954,14 @@ footer a:hover {
 	}
 
 }
-/*
-@media screen and (min-width: 320px) {
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+
+	.main-content {
+	width: 99%;
+	min-width: 272px;
+	}
+
 	.mobile-title {
 	font-size: 14px;
 	line-height: 3.3;
@@ -976,4 +983,4 @@ footer a:hover {
 	font-size: 14px;
 	}
 }
-*/
+
