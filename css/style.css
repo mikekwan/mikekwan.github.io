@@ -371,7 +371,7 @@ p#badger-text-clear {
 	margin: 1em 0.3% 0 0.6%;
 }
 
-.stats-text, .stats-text2 {
+.stats-text {
 	text-align: center;
 	font-size: 18px;
 }
@@ -648,7 +648,7 @@ footer a:hover {
 	margin-left: 0%;
 	}
 
-	.special-img {
+	img.special-img {
 	height: 60%;
 	}
 
@@ -860,7 +860,7 @@ footer a:hover {
 
 	.badger-result {
 	font-size: 18px;
-	padding-left: 0em;
+	padding-left: 2.5em;
 	margin-top: 7em;
 	width: 90%;
 	}
@@ -884,6 +884,10 @@ footer a:hover {
 	font-size: 30px;
 	}
 
+	.stats-text {
+	font-size: 15px;
+}
+
 	#services-title {
 	margin-top: 0em;
 	text-align: center;
@@ -904,23 +908,19 @@ footer a:hover {
 	font-size: 14px;
 	}
 												/* 360 - 568 */
-	.services .column-quarter{
-	margin-left: 3.5%;
-	}
-
 	.column-quarter .services-h2 {
 	line-height: 0;
 	}
 
-	.services2 .column-quarter {
+	div#column-quarter, .services2 .column-quarter {
 	width: 95%;
 	margin-left: 1.5%;
 	margin-top: 2em;
-	height: 180px;
+	height: 10em;
 	}
 
-	.special-img {
-	height: 85%;
+	img.special-img {
+	height: 65%;
 	float: left;
 	margin-right: 2em;
 	}
