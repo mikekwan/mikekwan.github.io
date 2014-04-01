@@ -802,7 +802,7 @@ footer a:hover {
 	}
 
 	.badger-mode {
-	height: 13em;
+	height: 14em;
 	}
 
 	.badger-display {
@@ -828,11 +828,14 @@ footer a:hover {
 	}
 
 	img.badger-new {
-	margin-left: 4em;
+	margin-left: 4.9em;
+	border: 1px solid black;
+
 	}
 
 	.badger-pop2 {
-	margin-left: 3.5em;
+	margin-left: 6.5em;
+	width: 50%;
 	}
 	
 	p#badger-text-clear {
@@ -850,6 +853,7 @@ footer a:hover {
 												/* 360 - 568 */
 	.badger-result-text {
 	font-size: 16px;
+	padding-top: 1.4em;
 	padding-left: 5em;
 	}
 
