@@ -668,7 +668,7 @@ footer a:hover {
 
 }
 
-@media screen and (min-width : 360px) and (max-width: 568px) {
+@media screen and (min-width : 320px) and (max-width: 568px) {
 
 	.main-content {
 	width: 99%;
