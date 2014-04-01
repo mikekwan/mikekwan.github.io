@@ -272,9 +272,10 @@ img#quadruple-badger {
 
 .badger-display .column-half {
 	width: 49.7%;
-	height: 14.286em;
+	height: 16.3em;
 	float: left;
 	margin-top: 0px 0 1em 0;
+	
 }
 
 .badger-pop, .badger-pop2 {
