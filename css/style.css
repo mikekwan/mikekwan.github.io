@@ -709,7 +709,7 @@ footer a:hover {
 	line-height: 2;
 	font-size: 19px;
 	}
-										/* 320 - 568 */
+										/* 360 - 568 */
 	h1 {
 	display: none;
 	}
@@ -743,7 +743,7 @@ footer a:hover {
 	color: white;
 	padding-left: 1em;
 	}
-										/* 320 - 568 */
+										/* 360 - 568 */
 	.feature-slider {
 	width: 100%;
 	height: 10em;
@@ -770,7 +770,7 @@ footer a:hover {
 	font-size: 22px;
 	width: 100%;
 	}
-											/* 320 - 568 */
+											/* 360 - 568 */
 	.badger-button {
 	width: 80%;
 	height: 80%;
@@ -846,7 +846,7 @@ footer a:hover {
 	padding-left: 2em;
 	width: 90%;
 	}
-												/* 320 - 568 */
+												/* 360 - 568 */
 	.badger-result-text {
 	font-size: 16px;
 	padding-left: 5em;
@@ -857,7 +857,7 @@ footer a:hover {
 	}
 
 	.columnn-quarter2 {
-	width: 20%;
+	width: 45%;
 	font-size: 12px;
 	}
 
@@ -874,7 +874,7 @@ footer a:hover {
 
 	.column-quarter {
 	/* display: table-cell; */
-	width: 99%;
+	width: 96%;
 	height: 180px;
 	margin-left: 3.5%;
 	}
@@ -882,8 +882,9 @@ footer a:hover {
 	.column-quarter p, .services2 .column-quarter p {
 	width: 100%;
 	margin-left: 0;
+	font-size: 15px;
 	}
-												/* 320 - 568 */
+												/* 360 - 568 */
 	.services .column-quarter{
 	margin-left: 3.5%;
 	}
@@ -903,11 +904,6 @@ footer a:hover {
 	height: 83%;
 	float: left;
 	margin-right: 2em;
-	}
-
-	.services .column-quarter  p,
-	.services2 .column-quarter p {
-	font-size: 16px;
 	}
 
 	.services h2, .services2 h2{
@@ -958,10 +954,14 @@ footer a:hover {
 
 }
 
-@media screen and (max-width : 360px) {
+@media screen and (min-width: 320px) {
 	.mobile-title {
 	font-size: 14px;
 	line-height: 3.3;
+	}
+
+	#intro-button {
+	height: 2em;
 	}
 
 	.main-content {
@@ -970,5 +970,9 @@ footer a:hover {
 
 	.intro-text p {
 	font-size: 15px;
+	}
+
+	.column-quarter p, .services2 .column-quarter p {
+	font-size: 14px;
 	}
 }
