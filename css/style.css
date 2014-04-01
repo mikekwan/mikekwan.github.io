@@ -183,22 +183,24 @@ header {
 
 .intro-text {
 	padding-top: 50px;
-	margin-left: 2.5em;
+	margin-left: 1.5em;
 	max-width: 358px;
 	float: left;
 	font-size: 20px;
 }
 
 #intro-button {
-	height: 3em;
+	height: 4em;
 	width: 13em;
 	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	background: #e67e22; 
 	color: white;
-	margin-top: 0.5em;
+	margin-top: 0em;
 	border: none;
     opacity: 1;
+  	padding: 0em 1em 0em 1em;
+    box-sizing: border-box;
 }
 
 #intro-button:hover {background-color: #e67e22;}
@@ -668,6 +670,7 @@ footer a:hover {
 
 }
 
+/*keep min-width at 320 for mobile */
 @media screen and (min-width : 320px) and (max-width: 568px) {
 
 	.main-content {
@@ -677,6 +680,7 @@ footer a:hover {
 
 	.intro-text {
 	padding-top: 0;
+	font-size: 15px;
 	}
 
 	.about-section {
@@ -744,11 +748,13 @@ footer a:hover {
 	width: 45%;
 	color: white;
 	padding-left: 1em;
+	line-height: 3.5;
+	font-size: 16px;
 	}
 										/* 360 - 568 */
 	.feature-slider {
 	width: 100%;
-	height: 10em;
+	height: 11em;
 	padding-left: 15%;
 	border-bottom: none;
 	}
@@ -758,13 +764,13 @@ footer a:hover {
 	}
 
 	div.column-half {
-	width: 90%;
-	margin-left: 5%;
+	width: 55%;
+	padding-top: 0.5em;
+	margin-left: 15%;
 	}
 
 	#intro-button {
 	width: 90%;
-
 	}
 
 	#choose-title {
@@ -791,15 +797,15 @@ footer a:hover {
 		/*
 	margin-left: 67px;
 	*/
-	margin-left: 4em;
-	}
-
-	#button2 {
 	margin-left: 3em;
 	}
 
-	#button3 {
+	#button2 {
 	margin-left: 2em;
+	}
+
+	#button3 {
+	margin-left: 1em;
 	}
 
 	.badger-mode {
@@ -824,8 +830,9 @@ footer a:hover {
 	height: 5em;
 	}
 
-	#single-badger-clear {
+	img#single-badger-clear {
 	margin-left: 1.5em;	
+	width: 75%;
 	}
 
 	.badger-pop {
@@ -894,7 +901,7 @@ footer a:hover {
 	.column-quarter p, .services2 .column-quarter p {
 	width: 100%;
 	margin-left: 0;
-	font-size: 15px;
+	font-size: 14px;
 	}
 												/* 360 - 568 */
 	.services .column-quarter{
@@ -924,12 +931,12 @@ footer a:hover {
 	}
 
 	#button-more-box {
-	width: 100%;
+	width: 99%;
 	margin: 2em 0 0 0;
 	}
 
 	#button-more {
-	width: 100%;
+	width: 96%;
 	border: none; 
     margin-bottom: 0em;
     border-left: 0.7em solid white;
