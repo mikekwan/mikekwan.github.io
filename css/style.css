@@ -802,7 +802,7 @@ footer a:hover {
 	}
 
 	.badger-display {
-	height: 28em;
+	height: 30em;
 	}	
 
 	#order-button1, #order-button2, #order-button3 {
@@ -958,6 +958,14 @@ footer a:hover {
 	width: 50%;
 	margin-left: 0%;
 	line-height: 1.2;
+	}
+
+}
+
+@media screen and (max-width: 319px) {
+	.main-content {
+	width: 99%;
+	min-width: 22.857em;
 	}
 
 }
