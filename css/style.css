@@ -193,7 +193,7 @@ header {
 	height: 4em;
 	width: 13em;
 	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	background: #e67e22; 
 	color: white;
 	margin-top: 0em;
@@ -711,7 +711,7 @@ footer a:hover {
 	}
 
 	#mobileNav ul a li{
-	height: 2em;
+	height: 2.5em;
 	line-height: 2;
 	font-size: 19px;
 	}
@@ -944,7 +944,7 @@ footer a:hover {
 
 
 	div#quotes-third.column-third{
-	width: 97%;
+	width: 94%;
 	margin-bottom: 0;
 	
 	}
