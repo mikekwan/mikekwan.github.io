@@ -156,14 +156,6 @@ header {
 	display: none;
 }
 
-.mobile-logo img {
-	height: 60%;
-	margin-left: 2%;
-	margin-top: 3%;
-	border-radius: 40px;
-	border: 1px solid orange;
-}
-
 #mobileNav, .active {
 	display: none;
 	}
@@ -674,7 +666,7 @@ footer a:hover {
 
 }
 
-@media screen and (min-width : 320px) and (max-width: 568px) {
+@media screen and (min-width : 360px) and (max-width: 568px) {
 
 	.main-content {
 	width: 90%;
@@ -750,8 +742,6 @@ footer a:hover {
 	width: 45%;
 	color: white;
 	padding-left: 1em;
-	border: 1px solid blue;
-	
 	}
 										/* 320 - 568 */
 	.feature-slider {
@@ -966,4 +956,19 @@ footer a:hover {
 	margin-left: 0%;
 	}
 
+}
+
+@media screen and (max-width : 360px) {
+	.mobile-title {
+	font-size: 14px;
+	line-height: 3.3;
+	}
+
+	.main-content {
+	width: 360px;
+	}
+
+	.intro-text p {
+	font-size: 15px;
+	}
 }
