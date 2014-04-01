@@ -8,7 +8,7 @@ body {
 h1 {
 	font-weight: 300;
 	width: 1000px;
-	font-family: 'Alegreya', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -244,7 +244,7 @@ header {
 	text-align: center;
 	font-size: 33px;
 	font-weight: 300;
-	font-family: 'Alegreya', 'Helvetica Neue', 'Lucida Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 
 .badger-display {
@@ -459,7 +459,7 @@ p#badger-text-clear {
 	font-weight: 300;
 	margin-right: 4%;
 	padding-top: 1em;
-	font-family: 'Alegreya', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 
 .hi-class {
@@ -893,8 +893,8 @@ footer a:hover {
 
 	.column-quarter {
 	/* display: table-cell; */
-	width: 96%;
-	height: 180px;
+	width: 94%;
+	height: 185px;
 	margin-left: 3.5%;
 	}
 
@@ -920,7 +920,7 @@ footer a:hover {
 	}
 
 	.special-img {
-	height: 83%;
+	height: 85%;
 	float: left;
 	margin-right: 2em;
 	}
@@ -936,7 +936,7 @@ footer a:hover {
 	}
 
 	#button-more {
-	width: 96%;
+	width: 97%;
 	border: none; 
     margin-bottom: 0em;
     border-left: 0.7em solid white;
@@ -944,7 +944,7 @@ footer a:hover {
 
 
 	div#quotes-third.column-third{
-	width: 100%;
+	width: 97%;
 	margin-bottom: 0;
 	
 	}
