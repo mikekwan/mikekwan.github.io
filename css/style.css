@@ -3,6 +3,7 @@ body {
 	font-size: 14px;
 	background-color: white;
 	overflow-x:hidden;
+	margin: 0 auto;
 }
 
 h1 {
@@ -504,6 +505,7 @@ p#badger-text-clear {
 footer {
 	max-width: 1000px;
 	color: white;
+	clear: both;
 	
 }
 
