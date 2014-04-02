@@ -29,7 +29,8 @@ a:focus, button:focus {
 
 .about-section {
 	height: 45em;
-	max-width: 70%;
+	width: 99%;
+	max-width: 40em;
 	font-size: 1.125em;
 	margin: 2.857em 0px 0 11.875em;
 }
@@ -965,8 +966,7 @@ footer a:hover {
 
 @media screen and (max-width: 319px) {
 	.main-content {
-	width: 99%;
-	min-width: 22.857em;
+	width: 319px;
 	}
 
 }
