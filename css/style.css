@@ -516,6 +516,7 @@ footer a:hover {
 
 @media only screen and (min-width : 569px) and (max-width: 900px) {
 
+	/* min-width is 360px */
 	.main-content {
 	width: 90%;
 	min-width: 54.786em;
@@ -660,11 +661,11 @@ footer a:hover {
 }
 
 /*keep min-width at 320 for mobile */
-@media screen and (min-width : 320px) and (max-width: 568px) {
+@media screen and (min-width : 0px) and (max-width: 568px) {
 
 	.main-content {
 	width: 99%;
-	min-width: 22.857em;
+	min-width: 25.714em;
 	}
 
 	.intro-text {
@@ -965,17 +966,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 319px) {
-	.main-content {
-	width: 319px;
-	}
-
-
-	.about-section {
-	max-width: 319px;
-	}
-
-	header.main-nav {
-	width: 319px;
-	}
+	
 
 }
