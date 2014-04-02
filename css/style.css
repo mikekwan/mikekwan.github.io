@@ -488,7 +488,7 @@ p#badger-text-clear {
 
 /* ----- FOOTER ----- */
 footer {
-	margin-top: -7.857em;
+	margin-top: -5.857em;
 	max-width: 71.429em;
 	color: white;
 	clear: both;
@@ -500,7 +500,7 @@ footer .column-half {
 	width: 50%;
 	height: 7.857em;
 	padding: 1.429em;
-	line-height: 0.5em;
+	line-height: 1em;
 	box-sizing: border-box;
 	display: inline;
 }
@@ -962,10 +962,5 @@ footer a:hover {
 	width: 50%;
 	margin-left: 0%;
 	}
-
-}
-
-@media screen and (max-width: 319px) {
-	
 
 }
