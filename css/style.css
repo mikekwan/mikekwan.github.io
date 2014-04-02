@@ -192,9 +192,9 @@ header {
 
 #intro-button {
 	height: 4em;
-	width: 13em;
+	width: 12em;
 	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 0.9em;
 	background: #e67e22; 
 	color: white;
 	margin-top: 0em;
@@ -272,7 +272,7 @@ img#quadruple-badger {
 
 .badger-display .column-half {
 	width: 49.7%;
-	height: 16.3em;
+	height: 16.8em;
 	float: left;
 	margin-top: 0px 0 1em 0;
 	
@@ -465,7 +465,8 @@ p#badger-text-clear {
 	color: white;
 	border: none; 
 	padding-left: 1.2em;
-    margin-bottom: 0em;
+	margin-top: 1em;
+    margin-bottom: 2em;
     border-right: 17em solid white;
     border-left: 15em solid white;
 }
@@ -498,7 +499,7 @@ footer .column-half {
 	width: 50%;
 	height: 7.857em;
 	padding: 1.429em;
-	line-height: 0.036em;
+	line-height: 0.5em;
 	box-sizing: border-box;
 	display: inline;
 }
@@ -645,7 +646,7 @@ footer a:hover {
 	#button-more {
 	width: 70%;
 	border: none; 
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     border-left: 15em solid white;
 	}
 
@@ -927,7 +928,7 @@ footer a:hover {
 	#button-more {
 	width: 97%;
 	border: none; 
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     border-left: 0.7em solid white;
 	}
 
@@ -958,7 +959,6 @@ footer a:hover {
 	margin-top: 2em;
 	width: 50%;
 	margin-left: 0%;
-	line-height: 1.2;
 	}
 
 }
