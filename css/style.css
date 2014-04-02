@@ -175,6 +175,7 @@ header {
 	padding-left: 100px;
 	border-bottom: 1px dotted black;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 .intro-pic {
@@ -203,6 +204,7 @@ header {
     opacity: 1;
   	padding: 0em 1em 0em 1em;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 #intro-button:hover {background-color: #e67e22;}
@@ -381,9 +383,13 @@ p#badger-text-clear {
 /* ----- SERVICES----- */
 /* .services { display: table;} */
 
-.services {
+.services, .services2 {
 	overflow: hidden;
+	clear: both;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
+
 .column-quarter {
 	/* display: table-cell; */
 	height: 20.429em;
@@ -392,10 +398,11 @@ p#badger-text-clear {
 	margin: 2em 0.3% 0 0.6%;
 	padding: 1.5em 1em 0.5em 1.5em;
 	box-sizing: border-box;
-	border: 1px dotted #34495e;
-	-webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+	-moz-box-sizing: border-box;
+	border: 1px solid #7f8c8d;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     float: left;
 }
 
@@ -502,6 +509,7 @@ footer .column-half {
 	padding: 1.429em;
 	line-height: 1em;
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	display: inline;
 }
 
