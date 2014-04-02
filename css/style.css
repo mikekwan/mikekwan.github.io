@@ -969,4 +969,13 @@ footer a:hover {
 	width: 319px;
 	}
 
+
+	.about-section {
+	max-width: 319px;
+	}
+
+	header.main-nav {
+	width: 319px;
+	}
+
 }
