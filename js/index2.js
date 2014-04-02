@@ -89,21 +89,8 @@ jQuery(function($) {
         $('#maulings-counter').countTo({
             from: 0,
             to: 2500,
-            speed: 9920000,
+            speed: 39920000,
             refreshInterval: 2,
-            onComplete: function(value) {
-                console.debug(this);
-            }
-        });
-    });
-
-jQuery(function($) {
-        $('#goods-counter').countTo({
-            from: 0,
-            to: 3000,
-            speed: 7920000,
-            refreshInterval: 3,
-            onUpdate: null,
             onComplete: function(value) {
                 console.debug(this);
             }
@@ -114,8 +101,8 @@ jQuery(function($) {
         $('#honey-counter').countTo({
             from: 0,
             to: 2500,
-            speed: 15920000,
-            refreshInterval: 4,
+            speed: 920000,
+            refreshInterval: 2,
             onUpdate: null,
             onComplete: function(value) {
                 console.debug(this);
@@ -127,7 +114,7 @@ jQuery(function($) {
         $('#snakes-counter').countTo({
             from: 0,
             to: 2500,
-            speed: 10920000,
+            speed: 50000,
             refreshInterval: 1,
             onUpdate: null,
             onComplete: function(value) {
@@ -140,7 +127,7 @@ jQuery(function($) {
         $('#babies-counter').countTo({
             from: 0,
             to: 2500,
-            speed: 30920000,
+            speed: 920000,
             refreshInterval: 1,
             onUpdate: null,
             onComplete: function(value) {
