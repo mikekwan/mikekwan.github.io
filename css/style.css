@@ -1,15 +1,15 @@
 body {
-	font-family: 'Alegreya Sans', 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family:  'Alegreya Sans', 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 0.875em;
 	background-color: white;
 	overflow-x:hidden;
 	margin: 0 auto;
 }
 
-h1 {
-	font-weight: 300;
+h1.main-title {
+	font-weight: 200;
 	width: 1000px;
-	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family:  'Lusitana', 'Georgia', serif, Helvetica;
 }
 
 a {
@@ -83,12 +83,12 @@ a:focus, button:focus {
 }
 
 ::selection {
-	background-color: red;
+	background-color: #e74c3c;
 	color: white;
 }
 
 ::-moz-selection {
-	background-color: red;
+	background-color: #e74c3c;
 	color: white;
 }
 
@@ -107,7 +107,7 @@ header {
 /* ----- MAIN NAV ----- */
 
 .main-nav {
-	background-color: #ecf0f1;
+	background: #ecf0f1;
 	width: 71.429em;
 }
 
@@ -150,10 +150,9 @@ header {
 }
 
 .mobile-title {
-	font-size: 1.429em;
 	color: white;
 	display: none;
-	line-height: 0.200em;
+	font-family: 'Lusitana', Georgia, serif, Helvetica;
 }
 
 .mobile-logo {
@@ -251,7 +250,7 @@ header {
 	text-align: center;
 	font-size: 2.357em;
 	font-weight: 100;
-	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family:  'Lusitana', 'Georgia', serif, Helvetica;
 }
 
 .badger-display {
@@ -452,11 +451,11 @@ p#badger-text-clear {
 
 #services-title {
 	text-align: center;
-	font-size: 2.143em;
+	font-size: 2.357em;
 	font-weight: 300;
 	margin-right: 4%;
 	padding-top: 1em;
-	font-family: 'Alegreya Sans', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-family: 'Lusitana', 'Georgia', serif, Helvetica;
 }
 
 .hi-class {
@@ -712,9 +711,6 @@ footer a:hover {
 	font-size: 1em;
 	}
 
-	.about-section {
-	
-}
 
 	iframe {
 	width: 85%;
@@ -805,6 +801,7 @@ footer a:hover {
 	font-size: 1.571em;
 	width: 100%;
 	}
+
 											/* 360 - 568 */
 	.badger-button {
 	width: 80%;
@@ -941,7 +938,7 @@ footer a:hover {
 	}
 
 	img.special-img {
-	height: 80%;
+	height: 85%;
 	float: left;
 	margin-right: 1em;
 	}
